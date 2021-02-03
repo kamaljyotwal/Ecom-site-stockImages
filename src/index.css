@@ -1,5 +1,39 @@
-body {
+* {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+}
+:root {
+  --pink: #f47b6e;
+}
+.iteminCartContainer {
+  border: 3px solid yellow;
+  display: flex;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 90%;
+}
+.iteminCartContainer img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.iteminCartContainer p {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.overallGalleryContainer {
+  /* border: 2px solid #000000; */
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.overallGalleryContainer h3 {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-top: 0.5rem;
 }
