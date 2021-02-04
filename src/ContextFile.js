@@ -16,8 +16,6 @@ function ContextProviderComponent(props) {
     function toggleFavoriteFunc(id) {
         const updatedArr = allphotos.map(eachPic => {
             if (eachPic.id === id) {
-                // console.log(eachPic.id)
-                // console.log(!eachPic.isFavorite)
                 return { ...eachPic, isFavorite: !eachPic.isFavorite }
             }
             return eachPic
